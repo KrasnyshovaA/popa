@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f611af5cd3.js" crossorigin="anonymous"></script>
+    <title>Degen Pugs</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <!-- Вместо image\Logo.jpg вставить логотип-->
+          <div class="name">
+            <h1><big>Degen Pugs</big></h1>
+            </div>
+        <div class="about"><!--Иконки соц.сетей-->
+          <div style="border-left: 3px solid #ffff; padding-left: 35px; font-size:20pt;font-weight: bold;">
+          <p>I think you need it</p>
+          <a href="#"><i class="fa-brands fa-discord"></i></a> <!--Вместо решетки вставить ссылку на Дискорд-->
+          <a href="#"><i class="fa-brands fa-twitter"></i></a> <!--Вместо решетки вставить ссылку на Твиттер-->
+          <a href="#">ROAD MAP</a><!--Вместо решетки вставить ссылку на ROAD MAP-->
+          </div>
+          </div>
+      </a>
+    </div>
+  </nav>
+  <div class="time">
+    <div class="center">
+      <h1>place for timer</h1>
+      <p1 id="timer"></p1>
+  </div>
+  <div class="button">
+  <button type="button" class="btn btn-primary btn-lg">MINT</button>
+</div>
+
+<!--  <script>
+  //Установка времени времени для обратного отсчета//
+  var countDownDate = new Date("Feb 11, 2022 00:00:00").getTime();
+  //Обновление таймера //
+  var countDownFunction =setInterval(function(){
+  var now = new Date().getTime();
+  //промежуток между установленным и нынешнем времени//
+  var distance =countDownDate - now;
+  //Время для дней,часов,минут//
+  var days = Math.floor(distance/1000*60*60*24);
+  var hours = Math.floor((distance%(1000*60*60*24))/(1000*60*60));
+  var minuts = Math.floor((distance%(1000*60*60))/(1000*60*60));
+  var seconds = Math.floor((distance%(1000*60))/1000);
+  //Вывод Результата//
+  document.getElementByld("timer").innerHtml= days+"д"+hours+"ч"+minuts+"м"+seconds+"с";
+  if (distance<0){
+    clearInterval(countDownFunction);
+    document.getElementByld("timer").innerHtml="Available"
+  }
+},1000)
+</script> -->
+  </body>
+</html>
